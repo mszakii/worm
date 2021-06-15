@@ -1,0 +1,31 @@
+body {
+  background-color: rgb(66,133,244);
+  font-family: Arial;
+}
+button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  border: 0;
+  outline: none;
+  background-color: rgb(15,157,88);
+  color: white;
+  font-weight: bold;
+  font-size: 2em;
+  width: 200px;
+  padding: 20px;
+  border-radius: 5px;
+}
+button img {
+  width: 100%;
+}
+.img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 200px;
+  animation-name: worm;
+  animation-duration: 5s;
+}
