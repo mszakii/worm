@@ -20,11 +20,13 @@ button {
 button img {
   width: 100%;
 }
-.img {
+.worm {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
+}
+.img {
   width: 200px;
   animation-name: worm;
   animation-duration: 5s;
